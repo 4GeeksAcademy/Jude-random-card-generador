@@ -26,7 +26,7 @@ let color = (suit === "♥" || suit === "♠") ? "red" : "black"
 
 //write your code here 
 
-
+window.onload =  () =>{
 document.querySelector(".number").innerHTML = number;
 document.querySelector(".suit").innerHTML = suit;
 document.querySelector(".right-bottom-suit").innerHTML = suit;
@@ -34,3 +34,4 @@ document.querySelector(".right-bottom-suit").innerHTML = suit;
 document.querySelector(".suit").style.color = color;
 document.querySelector(".right-bottom-suit").style.color = color;
 
+}
