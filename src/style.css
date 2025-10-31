@@ -16,24 +16,22 @@ body{
    margin: auto;
    border-radius: 10px;
    font-size: 5rem;
-   
-}
-.red{
-    color: red;
-}
- 
-.black{
-    color: black;
+   position: relative;
 }
 
 .number{
+    
     font-size: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+
 .right-bottom-suit{
     position: absolute;
-    bottom: 15px;
-    right: 15px;
+    bottom: 0;
+    right: 0;
+    margin-right: 1rem;
 }
