@@ -1,26 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background:rgb(6, 121, 52);
-}
-.card{
-   width: 270px;
-   height: 400px ;
-   display: block;
-   margin: auto;
-   border-radius: 10px;
-   font-size: 5rem;
-   position: relative;
+body {
+    background: rgb(6, 121, 52);
 }
 
-.number{
-    
+.card {
+    width: 270px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 5rem;
+    position: relative;
+}
+
+.number {
+
     font-size: 5rem;
     display: flex;
     justify-content: center;
@@ -29,9 +30,10 @@ body{
 }
 
 
-.right-bottom-suit{
+.right-bottom-suit {
     position: absolute;
     bottom: 0;
     right: 0;
     margin-right: 1rem;
+    transform: rotate(180deg)
 }
